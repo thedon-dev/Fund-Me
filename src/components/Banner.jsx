@@ -45,6 +45,8 @@ export default function HeroSection() {
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Send <span className="text-purple-400">Funds</span>
           </h1>
+          <h3 className="text-2xl md:text-4xl font-bold text-white mb-6">For My <span className="text-purple-400">Macbook</span> Please!!!!
+          </h3>
           <div className="flex gap-2 justify-center items-center">
             <button
               className={`bg-purple-600 hover:bg-purple-700 text-white px-8 py-2 rounded-lg transition-colors ${
@@ -86,10 +88,10 @@ export default function HeroSection() {
                   <p className="text-gray-700">Account Number:</p>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="font-medium">9163169949</span>
+                  <span className="font-medium">9057696490</span>
                   <button
                     className="text-purple-600 hover:text-purple-700"
-                    onClick={() => copyToClipboard("9163169949")}
+                    onClick={() => copyToClipboard("9057696490")}
                   >
                     <Copy className="w-5 h-5" />
                   </button>
@@ -113,11 +115,11 @@ export default function HeroSection() {
               <div className="flex items-center justify-between">
                 <div className="flex items-center justify-between gap-2">
                   <User className="w-5 h-5 text-gray-500" />
-                  
-                  <span className="font-medium">Robinson Honour</span>
+                  <p className="text-gray-700">Accnt Name:</p>
+                  <span className="font-medium">Jack Victor Adokiye</span>
                   <button
                     className="text-purple-600 hover:text-purple-700"
-                    onClick={() => copyToClipboard("Robinson Honour")}
+                    onClick={() => copyToClipboard("Jack Victor Adokiye")}
                   >
                   </button>
                 </div>
